@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "g-git-page": "ng build --prod --baseHref=\"https://github.com/mgonzalezpk/me/\""
+    "g-git-page": "ng build --prod --baseHref=\"https://mgonzalezpk.github.io/me/\""
   },
   "private": true,
   "dependencies": {
