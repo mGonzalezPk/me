@@ -1,0 +1,18 @@
+<ul class="timeline">
+
+	<li class="timeline-inverted" *ngFor="let item of timelineItems; let i = index">
+		<div class="timeline-badge" [ngClass]="{'info': i%2, 'success': !(i%2)}">
+			<!-- <i class="glyphicon glyphicon-thumbs-up"></i> -->
+		</div>
+		<div class="timeline-panel">
+			<div class="timeline-heading">
+				<h4 class="timeline-title">{{item.title}}</h4>
+				<span class="text-muted">{{item.place}}</span>
+			</div>
+			<div class="timeline-body">
+				<p>{{item.description}}</p>
+				<small class="text-muted">{{item.time}}</small>
+			</div>
+		</div>
+	</li>
+</ul>
