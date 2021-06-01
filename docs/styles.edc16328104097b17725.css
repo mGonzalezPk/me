@@ -1,4 +1,4 @@
-@charset "UTF-8";body{background-color:#3264a7!important;height:100vh!important}
+@charset "UTF-8";.banner{background-color:#f0f0f0;height:150px;display:flex;align-items:center;border-radius:30px}body{background-color:#3264a7!important;height:100vh!important}
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
